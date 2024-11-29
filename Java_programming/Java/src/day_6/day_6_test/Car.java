@@ -1,4 +1,4 @@
-package day_6_test;
+package day_6.day_6_test;
 
 public class Car {
     private String model;
