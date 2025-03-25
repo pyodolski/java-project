@@ -6,7 +6,7 @@ public class WriteExample {
     public static void main(String[] args) throws Exception {
         // 데이터 도착지를 test1.db로 하는 파일 출력 스트림 생성
         //OutputStream os = new FileOutputStream("C:/Temp/test1.db");
-        OutputStream os = new FileOutputStream("/Users/pyodolski/Desktop/Github/java/Java_programming/Java/src/day_9/test1.txt");
+        OutputStream os = new FileOutputStream("/Users/pyodolski/Desktop/Github/java/Java_programming/Java/src/yu241127/test1.txt");
 
         // 각각의 byte 데이터 정의
         byte a = 10; 

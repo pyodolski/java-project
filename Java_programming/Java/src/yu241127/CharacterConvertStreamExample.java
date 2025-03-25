@@ -10,7 +10,7 @@ public class CharacterConvertStreamExample {
 // 문자열을 파일에 출력하는 메소드
     public static void write(String str) throws Exception {
         // FileOutputStream과 OutputStreamWriter 보조 스트림 연결
-        FileOutputStream fos = new FileOutputStream("/Users/pyodolski/Desktop/Github/java/Java_programming/Java/src/day_9/CharacterConvertStreamExample.txt");
+        FileOutputStream fos = new FileOutputStream("/Users/pyodolski/Desktop/Github/java/Java_programming/Java/src/yu241127/CharacterConvertStreamExample.txt");
         Writer writer = new OutputStreamWriter(fos);
         // OutputStreamWriter를 이용해서 문자열 출력
         writer.write(str);
@@ -21,10 +21,9 @@ public class CharacterConvertStreamExample {
     }
 
     // 파일에서 문자열을 읽어오는 메소드
-
     public static String read() throws Exception {
         // FileInputStream과 InputStreamReader 보조 스트림 연결
-        FileInputStream fis = new FileInputStream("/Users/pyodolski/Desktop/Github/java/Java_programming/Java/src/day_9/CharacterConvertStreamExample.txt");
+        FileInputStream fis = new FileInputStream("/Users/pyodolski/Desktop/Github/java/Java_programming/Java/src/yu241127/CharacterConvertStreamExample.txt");
         Reader reader = new InputStreamReader(fis);
         // 문자 데이터를 읽기 위한 배열 생성
         char[] buffer = new char[100];

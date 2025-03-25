@@ -5,7 +5,7 @@ import java.io.InputStream;
 public class ReadExample {
     public static void main(String[] args) throws Exception {
         // 데이터 출발지를 test1.db로 하는 파일 입력 스트림 생성
-        InputStream is = new FileInputStream("./test1.db");
+        InputStream is = new FileInputStream("/Users/pyodolski/Desktop/Github/java/Java_programming/Java/src/yu241127/test1.txt");
 
         while (true) {
             // 1byte씩 읽기
